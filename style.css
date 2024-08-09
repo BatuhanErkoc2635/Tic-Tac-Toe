@@ -40,7 +40,12 @@
 }
 
 #playerSelection{
-    margin-top: 200px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
     max-width: 600px;
     outline: 0;
     max-height: 200px;
@@ -170,8 +175,13 @@
 
 .end-buttons{
     text-align: center;
-    justify-self: center;
-    align-self: flex-end;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    margin-top: 39.6%;
     background-color: #F4A259;
     border: 4px #222222 dashed;
     outline: 0;
