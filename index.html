@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="whole-container">
+
+        <h1 id="title"> Tic Tac Toe!</h1>
+        <button id="startButton">Start</button>
+    
+    <dialog class="modal" id="playerSelection">
+        <div class="playerBox">
+            <div class="player" id="player1">
+                <label for="player1username">Player One Username:</label>
+                <input type="text" id="player1username" value="">
+                <h1 class="sign xSign">X</h1>
+            </div>
+            <div class="player" id="player2">
+                <label for="player2username">Player Two Username:</label>
+                <input type="text" id="player2username" value="">
+                <h1 class="sign oSign">O</h1>
+            </div>
+            <input type="button" name="submit" id="submit" value="SUBMIT">
+        </div>
+        
+    </dialog>
+
+    <div class="gameSection">
+    </div>
+    
+    <div class="end-section">
+        <dialog class="end-buttons" id="endModal" >
+            <h2 id="winner">Derin has won the round!</h2>
+            <button id="restart">Next Round!</button>
+        </dialog>
+    </div>
+    <div class="license">
+        <a href="https://github.com/BatuhanErkoc2635" target="_blank" class="button"><img src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" alt="gLogo"></a>
+    </div>
+    </div>
+     
+
+
+</body>
+<script src="script.js"></script>
+</html>
