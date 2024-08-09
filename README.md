@@ -9,7 +9,7 @@ A classic Tic-Tac-Toe game built using HTML, CSS, and JavaScript.
 
 
 ### Links
-[https://batuhanerkoc2635.github.io/Tic-Tac-Toe/]
+[[https://batuhanerkoc2635.github.io/Tic-Tac-Toe/]](https://batuhanerkoc2635.github.io/tic-tac-toe-v3/)
 
 ### Tools Used
 
